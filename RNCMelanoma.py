@@ -87,12 +87,11 @@ RNC.fit_generator(training_set,
                   validation_data = test_set
                   ) 
 
-#RNC.save('C:/Users/USUARIO/Desktop/FotosPyQT6/ClasificadorMelanomaRNC02.h5')
+RNC.save('C:/Users/USUARIO/Desktop/FotosPyQT6/ClasificadorMelanomaRNC.h5')
+
 """
 Epoch 99/100
 100/100 [==============================] - 70s 704ms/step - loss: 0.2005 - accuracy: 0.9189 - val_loss: 0.2550 - val_accuracy: 0.8950
 Epoch 100/100
 100/100 [==============================] - 69s 696ms/step - loss: 0.1837 - accuracy: 0.9274 - val_loss: 0.2696 - val_accuracy: 0.8863
-RNC.save('C:/Users/USUARIO/Desktop/FotosPyQT6/ClasificadorMelanomaRNC.h5')
-20/20 [==============================] - 46s 2s/step - loss: 0.4868 - accuracy: 0.7875 - val_loss: 0.4366 - val_accuracy: 0.8060
 """
